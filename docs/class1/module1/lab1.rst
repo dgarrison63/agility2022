@@ -814,42 +814,42 @@ Congratulations! You now have a cluster that routes traffic evenly
 between web servers and is capable of failing over to a standby system
 for high availability.
 
-.. |image0| image:: ../images/image1.png
-   :width: 8.4875in
-   :height: 10.34375in
-.. |Diagram Description automatically generated| image:: ../images/image2.png
-   :width: 6.5in
-   :height: 4.06806in
-.. |Graphical user interface Description automatically generated with medium confidence| image:: ../images/image3.png
-   :width: 6.5in
-   :height: 1.68889in
-.. |Graphical user interface Description automatically generated| image:: ../images/image4.png
-   :width: 6.5in
-   :height: 1.37639in
-.. |Graphical user interface, application Description automatically generated| image:: ../images/image5.png
-   :width: 6.5in
-   :height: 2.78958in
-.. |Graphical user interface, application Description automatically generated| image:: ../images/image6.png
-   :width: 6.5in
-   :height: 1.65208in
-.. |Graphical user interface, application Description automatically generated| image:: ../images/image7.png
-   :width: 6.5in
-   :height: 2.83611in
-.. |Graphical user interface, application, website, Teams Description automatically generated| image:: ../images/image8.png
-   :width: 6.5in
-   :height: 5.57431in
-.. |Graphical user interface, application Description automatically generated| image:: ../images/image9.png
-   :width: 6.5in
-   :height: 2.56528in
-.. |Graphical user interface, application, Teams Description automatically generated| image:: ../images/image10.png
-   :width: 6.5in
-   :height: 2.80278in
-.. |Graphical user interface, application Description automatically generated| image:: ../images/image11.png
-   :width: 6.5in
-   :height: 4.11944in
-.. |Graphical user interface, application, Teams Description automatically generated| image:: ../images/image12.png
-   :width: 6.5in
-   :height: 4.71875in
-.. |Graphical user interface, application Description automatically generated| image:: ../images/image13.png
-   :width: 6.5in
-   :height: 4.85139in
+g
+
+
+enerated| image:: ../images/image2.png
+
+
+n automatically generated with medium confidence| image:: ../images/image3.png
+
+
+n automatically generated| image:: ../images/image4.png
+
+
+on Description automatically generated| image:: ../images/image5.png
+
+
+on Description automatically generated| image:: ../images/image6.png
+
+
+on Description automatically generated| image:: ../images/image7.png
+
+
+on, website, Teams Description automatically generated| image:: ../images/image8.png
+
+
+on Description automatically generated| image:: ../images/image9.png
+
+
+on, Teams Description automatically generated| image:: ../images/image10.png
+
+
+on Description automatically generated| image:: ../images/image11.png
+
+
+on, Teams Description automatically generated| image:: ../images/image12.png
+
+
+on Description automatically generated| image:: ../images/image13.png
+
+
