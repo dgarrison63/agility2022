@@ -1,10 +1,12 @@
-Deploy and Configure Ubuntu KVM hypervisor hosts
-================================================
+Lab #2: Deploy and Configure Ubuntu KVM hypervisor host
+=======================================================
 
-Install bare metal Ubuntu instances 
+During this lab you will...
+
+Install bare metal Ubuntu instance
 ------------------------------------
 
-Install two (2) Ubuntu 20.04 LTS on-demand Metal Instances. Select a
+Install one Ubuntu 20.04 LTS on-demand Metal instance. Select a
 size that supports hybrid and layer 2 networking modes (servers with 2x
 10gbps ports); provide names and populate the Add User Data section (see
 Figure 7).
@@ -58,7 +60,7 @@ the following:
 
 After populating the **Add User Data** section, press the **Deploy Now**
 button to begin the deployment process. It can take a few minutes after
-the servers are available in the dashboard for all the packages to be
-installed and for the servers to be fully available and ready to be
+the server is available in the dashboard for all the packages to be
+installed and for the server to be fully available and ready to be
 configured. If you find that a package defined to be installed is not,
 wait a few minutes and check again.

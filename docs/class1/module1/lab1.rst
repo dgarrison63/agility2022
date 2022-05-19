@@ -1,40 +1,7 @@
-Introduction
 
-With the release of Equinix Metal, enterprises now have a great option
-for deploying resources on bare metal at the network edge. Additionally,
-since Equinix Metal is integrated into the Equinix Fabric, it provides
-an excellent location for a centralized access endpoint into an
-organization’s multi-cloud environment.
 
-However, as organizations move sensitive resources to the network edge,
-it is extremely critical that security moves to the edge as well. The F5
-BIG-IP, with its host of application security services, is well
-positioned to meet this need with highly available, scalable, and secure
-access to edge compute services as well multi-cloud environments.
-
-This document provides guidance for deploying a highly available and
-scalable application delivery infrastructure on top of Equinix Metal
-using the F5 BIG-IP. As shown in Figure 1, the BIG-IP tier provides
-advanced layer 4/7 traffic management and security services. In this
-configuration, the BIG-IP instances can operate in either an “active/
-active” or “active/standby” mode depending upon application requirements
-and services utilized.
-
-.. image:: ../images/image2.png
-   :width: 6.5in
-   :height: 4.06806in
-
-Figure 1: The BIG-IP tier provides advanced layer 4/7 traffic management
-and security services
-
-Prerequisites
-=============
-
-The following guidance assumes that you have an Equinix Metal account, a
-basic understanding of the Equinix Metal platform and the deployment
-process. Additionally, it is assumed the reader is familiar with KVM
-hypervisor configuration as well as F5 BIG-IP application delivery
-terminology and configuration as well as two BIG-IP license keys.
+Lab #1: Equinx BGP, VLAN & Elastic IP Setup
+============================================
 
 **A note about BGP in the Metal environment:**
 
@@ -59,7 +26,7 @@ Enable BGP on project
 
 This deployment uses BGP to advertise the BIG-IP virtual server IP
 addresses to the world and BGP must be enabled at the project level
-using **Local BGP** option. BGP also needs to be enabled on each Metal
+using **Local BGP** option. BGP also needs to be enabled on the Metal
 server and you will do that in a later step.
 
 .. image:: ../images/image3.png
@@ -82,7 +49,7 @@ be needed when configuring the Ubuntu network settings in a later step.
    :height: 1.37639in
 
 Figure 3: Create four layer 2 VLANs in the Equinix Metal location where
-all the servers reside.
+the server resides.
 
 Once all of the VLANs have been created, the list of VLANs will look
 similar to what is shown in Figure 4.
@@ -102,8 +69,9 @@ Request Elastic IP Addresses
   a total of five elastic IP addresses: two for each BIG-IP management
   interface and one for the BIG-IP virtual server address that will be
   advertised out to the world using BGP.
+
 | More specifically, you will need to request a **Public IPv4** address
-  block that is a /31 in CIDR notation for **each** BIG-IP as well as a
+  block that is a /31 in CIDR notation for the BIG-IP as well as a
   **Public IPv4** address block that is a /32 in CIDR notation. These
   addresses will be used later in the deployment process.
 

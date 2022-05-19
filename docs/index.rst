@@ -1,7 +1,7 @@
 F5 Agility Labs Getting Started Doc
 ===================================
 
-Welcome to the |classbold| for F5 Agility |year|
+Welcome to the |BIG-IP 261| for F5 Agility |2022|
 
 .. attention::
    The Agility team is using this repo to document our "read-the-docs" process.
