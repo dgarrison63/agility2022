@@ -1,6 +1,8 @@
 Lab #5: Modify KVM Host Network Configuration
 =============================================
 
+In this lab, you will...
+
 Modify instance network configuration 
 --------------------------------------
 

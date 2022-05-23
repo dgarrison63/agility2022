@@ -1,5 +1,5 @@
-Deploy Sample NGINX Back-end Web Servers 
-=========================================
+Lab #9: Deploy Sample NGINX Back-end Web Servers 
+================================================
 
 In this section, you will deploy two new Metal instances that will host
 the Nginx web servers. The process to deploy and configure these two new

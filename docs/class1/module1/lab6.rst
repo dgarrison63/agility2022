@@ -1,5 +1,5 @@
-Deploy BIG-IP VM
-================
+Lab #6: Deploy BIG-IP VM on KVM
+===============================
 
 Now that the KVM hypervisor networking is properly configured, download
 the latest **qcow2 BIG-IP** image from downloads.f5.com and perform the

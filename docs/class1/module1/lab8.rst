@@ -1,5 +1,5 @@
-Configure BIRD BGP routing daemon on Ubuntu
--------------------------------------------
+Lab #8: Configure BIRD Routing Daemon BGP on KVM Host
+=====================================================
 
 The BIRD routing daemon provides BGP routing capability and will be used
 to establish BGP neighbors with both the Equinix Metal routers as well
