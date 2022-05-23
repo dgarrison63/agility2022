@@ -1,5 +1,5 @@
 Lab #7: Configure BIG-IP
-=======================
+========================
 
 Instead of using the BIG-IP web UI to configure the BIG-IP, you will use
 the BIG-IP CLI and TMSH commands to configure the BIG-IP instances.
